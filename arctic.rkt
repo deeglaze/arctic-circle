@@ -403,7 +403,3 @@
 
 ;; Example
 (random-aztec-tiling-unfold 10)
-
-(define a500 (random-aztec-tiling 500))
-(define a500bm (pict->bitmap (board->pict a500 500)))
-(send a500bm save-file "/Users/dionnaglaze/gitrepos/arctic-circle/a500.png" 'png)
